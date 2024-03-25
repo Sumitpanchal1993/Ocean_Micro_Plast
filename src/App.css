@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    color: white;
+    font-family:roboto;
+  }
+  
+  
+  /* variable for color */
+  :root{
+    --myGrey: #2F4454;
+    --wineRed: #2E151B;
+    --myPink: #DA7B93;
+    --myTeal: #376E6F;
+    --myGreen: #1C3334;
+  }
+  
+  body{
+    background-image: url('../src/Media/Images/BG1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  button{
+    background: var(--myTeal);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  
+  button:hover{
+    background: var(--myGrey);
+  }

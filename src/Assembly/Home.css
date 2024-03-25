@@ -1,0 +1,20 @@
+
+.homeBase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.homeTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.homeTitle p{
+    font-size: 8rem;
+    font-weight: bolder;
+    
+}
