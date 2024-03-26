@@ -4,8 +4,8 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     color: white;
-    padding: 1rem;
-    background:rgba(0, 0, 0, 0.4);
+    padding: 0.2rem 1rem;
+    background:rgba(0, 0, 0, 0.5);
 }
 
 .navLogo{
