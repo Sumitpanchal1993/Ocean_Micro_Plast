@@ -14,7 +14,6 @@ function Customer() {
         <CustomerCard/>
         <CustomerCard/>
         <CustomerCard/>
-        <CustomerCard/>
     </div>
 
     </>
