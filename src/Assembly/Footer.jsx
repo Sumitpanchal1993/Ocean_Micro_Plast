@@ -13,6 +13,7 @@ function Footer() {
     <>
       <div className="footerBase">
         <div className="quickLinks">
+          <h3>Site Links</h3>
           <ul>
             <li>Home</li>
             <li>Products</li>
@@ -22,7 +23,7 @@ function Footer() {
         </div>
         <div className="followUs">
         <div className="socialMedia">
-              <h4>Follow Us on:</h4>
+              <h3>Follow Us on:</h3>
               <ul>
                 <li>
                   <a href="">

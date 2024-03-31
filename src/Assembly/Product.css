@@ -5,6 +5,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
+    padding: 1rem;
 }
 
 
@@ -20,8 +21,14 @@
     border-radius: 2rem;
     min-width: 300px;
     transition: all 0.5s ease-in-out;
+    gap: 0.5rem;
 }
 
 .prdCard:hover{
-    transform: scale(1.05);
+    transform: scale(1.04);
+    box-shadow: 0 0 10px white;
+}
+
+.prdCard img{
+    width: 15rem;
 }
