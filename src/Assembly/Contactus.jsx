@@ -53,20 +53,20 @@ function Contactus() {
               </div>
               <div className="officedetail">
                 <span className="material-symbols-outlined">mail</span>
-                <p>ocean.microplast@gmail.com </p>
+                <p><a href="mailto: ocean.microplast@gmail.com">ocean.microplast@gmail.com </a></p>
               </div>
               <div className="officedetail">
                 <span className="material-symbols-outlined">smartphone</span>
                 <div>
                   <p>Dilip R. Singh</p>
-                  <p>+91 9977621122</p>
+                  <p> <a href="tel:9977621122">+91 9977621122</a></p>
                 </div>
               </div>
               <div className="officedetail">
                 <span className="material-symbols-outlined">smartphone</span>
                 <div>
                   <p>Jitendra Singh</p>
-                  <p>+91 9806618800</p>
+                  <p><a href="tel:9806618800">+91 9806618800</a></p>
                 </div>
               </div>
             </div>
@@ -74,7 +74,7 @@ function Contactus() {
               <h4>Follow Us on:</h4>
               <ul>
                 <li>
-                  <a href="">
+                  <a href="https://wa.me/9806618800">
                     <img src={WA} alt="" />
                     Whatsapp
                   </a>

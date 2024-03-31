@@ -3,8 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background:rgba(0, 0, 0, 0.2);
+    background:rgba(0, 0, 0, 0.4);
     padding: 1rem;
+    
 }
 
 .homeTitle{
@@ -12,9 +13,35 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    gap: 1rem;
 }
 .homeTitle p{
     font-size: 8rem;
     font-weight: bolder;
     
+}
+
+
+.product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;    
+    background:rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+}
+
+.list{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    overflow-y: hidden;
+    padding: 1rem;
+}
+
+
+.product img{
+    width: 12rem;
 }
